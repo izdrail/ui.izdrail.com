@@ -14,7 +14,7 @@ const All404Pages: FC = function () {
       />
       <BlockSection
         title="Default 404 page"
-        description={`Use this free example of a 404 "not found" page coded with Tailwind CSS and Flowbite when a user visits a page that doesn't exist with a button back to the homepage.`}
+        description={`Use this free example of a 404 "not found" page coded with Tailwind CSS and Izzy when a user visits a page that doesn't exist with a button back to the homepage.`}
         githubLink="https://github.com/themesberg/flowbite-react-blocks/blob/main/pages/marketing-ui/404-pages/default.tsx"
       >
         <Default404Page />

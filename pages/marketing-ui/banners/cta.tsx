@@ -11,7 +11,7 @@ const CTABanner: FC = function () {
             I hope you enjoyed reading this post.
           </p>
           <p className="text-sm text-gray-500 dark:text-gray-400">
-            If you want my team at Flowbite Digital to help you get more
+            If you want my team at Izdrail Digital to help you get more
             traffic, just book a call.
           </p>
         </div>

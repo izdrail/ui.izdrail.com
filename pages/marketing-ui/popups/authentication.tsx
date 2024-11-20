@@ -17,7 +17,7 @@ const AuthenticationPopup: FC = function () {
               className="flex items-center text-xl font-semibold text-gray-900 dark:text-white"
             >
               <FlowbiteLogoSVG />
-              Flowbite
+              Izzy
             </a>
             <button
               onClick={() => setShow(false)}

@@ -7,12 +7,12 @@ const HomePage: FC = function () {
   return (
     <div className="p-4 dark:bg-gray-900 max-w-screen-2xl mx-auto">
       <h1 className="mb-2 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
-        Ui components for izdrail.com
+        Reusable design components
       </h1>
       <p className="mb-8 text-lg text-gray-500 dark:text-gray-400 max-w-3xl">
-        This is a collection of Ui components for izdrail.com. The components are built with
-        <a href="https://www.flowbite.com/" className="text-blue-500 underline">
-          Flowbite
+        This is a collection of design inspirations for my websites it is a fork of flow-bite
+        <a href="https://izdrail.com/" className="text-blue-500 underline">
+          izdrail.com
         </a>
        .
       </p>

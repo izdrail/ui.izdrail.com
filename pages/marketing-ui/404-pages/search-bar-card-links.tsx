@@ -37,7 +37,7 @@ const SearchBarCardLinks404Page: FC = function () {
                 <TextInput
                   icon={HiSearch}
                   id="member_email"
-                  placeholder="e.g. Flowbite, components"
+                  placeholder="e.g. Izzy, components"
                   required
                   type="email"
                   theme={{field: {input: {colors: { gray: "bg-white border-gray-300 text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500" }}}}}

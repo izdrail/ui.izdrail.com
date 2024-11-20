@@ -48,16 +48,16 @@ const RootNavbar: FC = function () {
     <Navbar fluid rounded>
       <Navbar.Brand href="/">
         <img
-          alt="Flowbite React Logo"
-          src="https://flowbite.com/docs/images/logo.svg"
+          alt="Logo"
+          src="https://izdrail.com/assets/logo.svg"
           className="mr-3 h-6 sm:h-9"
         />
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-          Flowbite React
+          Design Components
         </span>
       </Navbar.Brand>
       <div className="flex gap-2 md:order-2">
-        <Button href="https://www.flowbite-react.com/docs/getting-started/introduction">Getting started</Button>
+        <Button href="https://izdrail.com">Getting started</Button>
         <DarkThemeToggle />
         <Navbar.Toggle theme={{icon: "h-5 w-5 shrink-0"}} />
       </div>
@@ -65,16 +65,7 @@ const RootNavbar: FC = function () {
         <Navbar.Link active href="/">
           <p>Home</p>
         </Navbar.Link>
-        <Navbar.Link href="https://www.flowbite-react.com/docs/getting-started/quickstart">
-          Quickstart
-        </Navbar.Link>
-        <Navbar.Link href="https://www.flowbite-react.com/docs/customize/theme">
-          Customize
-        </Navbar.Link>
-        <Navbar.Link href="https://flowbite.com/dashboard/downloads/">
-          Pro resources
-        </Navbar.Link>
-        <Navbar.Link href="https://github.com/themesberg/flowbite-react">
+        <Navbar.Link href="https://github.com/izdrail/ui.izdrail.com">
           Github repo
         </Navbar.Link>
       </Navbar.Collapse>
