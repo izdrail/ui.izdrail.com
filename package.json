@@ -8,7 +8,7 @@
   "author": "Stefan <stefan@izdrail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/laravelcompany/ui.laravelcompany.com.git"
+    "url": "https://github.com/laravelcompany.com/ui.laravelcompany.com.git"
   },
   "scripts": {
     "build": "vite build",
@@ -24,7 +24,7 @@
     "yarn": ">= 1"
   },
   "dependencies": {
-    "flowbite": "^3",
+    "flowbite": "^1.8.0",
     "flowbite-react": "^0.7.1-beta",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

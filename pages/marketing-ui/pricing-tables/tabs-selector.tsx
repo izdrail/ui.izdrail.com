@@ -12,7 +12,7 @@ const TabsSelectorPricingCards: FC = function () {
             <h3 className="mb-4 text-lg font-medium text-gray-900 dark:text-white">
               Choose a pricing plan:
             </h3>
-            <Tabs.Group
+            <Tabs
               style="fullWidth"
               onClick={() => {
                 window.setTimeout(() => {
@@ -64,7 +64,7 @@ const TabsSelectorPricingCards: FC = function () {
                   count.*.
                 </p>
               </Tabs.Item>
-            </Tabs.Group>
+            </Tabs>
           </div>
           <div className="flex p-6 lg:p-8">
             <div

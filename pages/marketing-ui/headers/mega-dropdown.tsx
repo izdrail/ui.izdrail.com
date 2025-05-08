@@ -1,10 +1,10 @@
-import { Navbar, Button, MegaMenu } from "flowbite-react";
+import { Navbar, Button} from "flowbite-react";
 import type { FC } from "react";
 
 const MegaDropdownHeader: FC = function () {
   return (
     <header>
-      <MegaMenu fluid>
+      <div >
         <Navbar.Brand href="https://flowbite.com">
           <img
             src="https://flowbite.com/docs/images/logo.svg"
@@ -246,7 +246,7 @@ const MegaDropdownHeader: FC = function () {
           <Navbar.Link href="#">Team</Navbar.Link>
           <Navbar.Link href="#">Contact</Navbar.Link>
         </Navbar.Collapse>
-      </MegaMenu>
+      </div>
     </header>
   );
 };
