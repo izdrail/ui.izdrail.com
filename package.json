@@ -1,15 +1,14 @@
 {
   "type": "module",
-  "name": "ui-izdrail-com",
+  "name": "ui-laravel-agency",
   "version": "1.0.0",
   "description": "UI components for Izdrail.com",
-  "homepage": "https://github.com/izdrail/ui.izdrail.com",
-  "bugs": "https://github.com/izdrail/ui.izdrail.com/issues",
-  "license": "UNLICENSED",
+  "homepage": "https://laravelcompany.com",
+  "license": "CC0-1.0",
   "author": "Stefan <stefan@izdrail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/izdrail/ui.izdrail.com.git"
+    "url": "https://github.com/laravelcompany/ui.laravelcompany.com.git"
   },
   "scripts": {
     "build": "vite build",
@@ -25,7 +24,7 @@
     "yarn": ">= 1"
   },
   "dependencies": {
-    "flowbite": "^1.8.0",
+    "flowbite": "^3",
     "flowbite-react": "^0.7.1-beta",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
