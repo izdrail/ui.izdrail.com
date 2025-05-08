@@ -49,15 +49,15 @@ const RootNavbar: FC = function () {
       <Navbar.Brand href="/">
         <img
           alt="Logo"
-          src="https://izdrail.com/assets/logo.svg"
+          src="https://raw.githubusercontent.com/laravelcompany/laravelcompany.com/refs/heads/main/public/logo-light.svg"
           className="mr-3 h-6 sm:h-9"
         />
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-          Design Components
+          Free UI and Design Components
         </span>
       </Navbar.Brand>
       <div className="flex gap-2 md:order-2">
-        <Button href="https://izdrail.com">Getting started</Button>
+      
         <DarkThemeToggle />
         <Navbar.Toggle theme={{icon: "h-5 w-5 shrink-0"}} />
       </div>
@@ -65,9 +65,7 @@ const RootNavbar: FC = function () {
         <Navbar.Link active href="/">
           <p>Home</p>
         </Navbar.Link>
-        <Navbar.Link href="https://github.com/izdrail/ui.izdrail.com">
-          Github repo
-        </Navbar.Link>
+
       </Navbar.Collapse>
     </Navbar>
   );

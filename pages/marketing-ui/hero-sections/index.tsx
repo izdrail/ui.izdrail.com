@@ -19,6 +19,8 @@ import BlogPostsWithFeaturedImageHero from "./blog-posts";
 import PhoneMockupWithAppDownloadHero from "./phone-mockup";
 import BlockPageBreadcrumb from "../../../components/block-breadcrumb";
 import SearchBarDatepickerHeroSection from "./datepicker";
+import EcommerceHero from "./ecommerce-hero";
+import PromoSectionHero from "./promo-section-hero";
 
 const AllHeroSections: FC = function () {
   return (
@@ -152,6 +154,20 @@ const AllHeroSections: FC = function () {
         githubLink="https://github.com/themesberg/flowbite-react-blocks/blob/main/pages/marketing-ui/hero-sections/phone-mockup.tsx"
       >
         <PhoneMockupWithAppDownloadHero />
+      </BlockSection>
+      <BlockSection
+        title="Ecommerce Hero 1"
+        description="Use this component to show a preview of a mobile application inside a frame coded with Tailwind CSS and the mobile app download buttons for AppStore and Google Play."
+        githubLink="https://github.com/themesberg/flowbite-react-blocks/blob/main/pages/marketing-ui/hero-sections/phone-mockup.tsx"
+      >
+        <EcommerceHero />
+      </BlockSection>
+      <BlockSection
+        title="Ecommerce Hero 1"
+        description="Use this component to show a preview of a mobile application inside a frame coded with Tailwind CSS and the mobile app download buttons for AppStore and Google Play."
+        githubLink="https://github.com/themesberg/flowbite-react-blocks/blob/main/pages/marketing-ui/hero-sections/phone-mockup.tsx"
+      >
+        <PromoSectionHero />
       </BlockSection>
     </>
   );

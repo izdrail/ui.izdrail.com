@@ -9,6 +9,7 @@ import BlockSection from "../../../components/block-section";
 import BlockPageBreadcrumb from "../../../components/block-breadcrumb";
 import MegaDropdownHeader from "./mega-dropdown";
 import MegaMenuHeader from "./mega-menu";
+import EcommerceHeader from "./ecommerce-header";
 
 const AllHeaders: FC = function () {
   return (
@@ -72,6 +73,13 @@ const AllHeaders: FC = function () {
         githubLink="https://github.com/themesberg/flowbite-react-blocks/blob/main/pages/marketing-ui/headers/user-dropdown.tsx"
       >
         <HeaderWithUserDropdown />
+      </BlockSection>
+      <BlockSection
+        title="Ecommerce header"
+        description="This is a great example if you want to show the avatar of a logged-in website visitor and a choice of pages relevant to the administration of their account."
+        githubLink="https://github.com/themesberg/flowbite-react-blocks/blob/main/pages/marketing-ui/headers/user-dropdown.tsx"
+      >
+        <EcommerceHeader />
       </BlockSection>
     </>
   );
