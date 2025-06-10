@@ -6,13 +6,13 @@ import categoriesOfBlocks from "../data/blocks-categories.json";
 const HomePage: FC = function () {
   return (
     <div className="p-4 dark:bg-gray-900 max-w-screen-2xl mx-auto">
-      <h1 className="mb-2 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
-        Free UI components
+      <h1 className="mb-2 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white" title="Free UI Design for Laravel Developers">
+        UI Laravel Company
       </h1>
       <p className="mb-8 text-lg text-gray-500 dark:text-gray-400 max-w-3xl">
-        This is a collection of design inspirations for my websites it is a fork of an older version of flowbite css with more custom components.
-        <a href="https://laravelcompany.com/" className="text-blue-500 underline">
-          Laravel Agency
+          This is a collection of design inspirations for conmpanies websites it is a fork of an older version of flowbite css with more custom components.
+        <a href="https://laravelcompany.com/" className="text-blue-500 underline" title="Visit Laravel Development Services website">
+          Laravel Development Services
         </a>
        .
       </p>
